@@ -33,6 +33,18 @@ body {
   width: auto;
 }
 
+#navbarCollapse{
+  left: 100px;
+}
+
+#navbarCollapse .navbar-nav > li{
+  top: 20px;
+}
+
+.navbar {
+  width: auto;
+  height: 80px;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -99,7 +111,7 @@ body {
 @media (min-width: 768px) {
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 20px;
+    margin-top: 5px;
   }
   .navbar-wrapper .container {
     padding-right: 15px;
